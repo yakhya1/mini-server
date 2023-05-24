@@ -1,0 +1,17 @@
+module.exports.productController = {
+    getProduct(req, res){
+        res.send('product успешно добавлен')
+    },
+        getProductId(req,res ){
+            res.send(`product ${req.params.id} добавлен успешно`)
+        },
+
+        createProduct(req,res ){
+            res.send("product успешно создан")
+        },
+
+        deleteProduct(req, res){
+            res.send("product успешно удален")
+        }
+
+}
